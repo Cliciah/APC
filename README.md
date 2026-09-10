@@ -1,35 +1,34 @@
-# APC - UnB
-Este repositório contém a resolução e as listas de exercícios desenvolvidos durante a disciplina de **Algoritmos e Programação de Computadores (APC)** do curso de Engenharia de Software da **Universidade de Brasília (UnB)**, ministrada pelo professor **Lucas Boaventura**.
+# APC — Algoritmos e Programação de Computadores | UnB
 
-<h3> Sobre a Disciplina: </h3>
+Listas de exercícios e resoluções desenvolvidas durante a disciplina de **Algoritmos e Programação de Computadores (APC)** do curso de **Engenharia de Software** da **Universidade de Brasília (UnB/FCTE)**, ministrada pelo professor **Lucas Boaventura**.
 
-A disciplina de **Algoritmos e Programação de Computadores** introduz conceitos fundamentais de programação, estruturação de algoritmos e desenvolvimento de soluções computacionais básicas na Linguagem C.
+## Sobre a disciplina
 
-<h3> Conteúdo do Repositório: </h3>
+APC introduz os conceitos fundamentais de programação, estruturação de algoritmos e desenvolvimento de soluções computacionais na linguagem **C**.
 
--  **Listas de Exercícios**
-    - [**Lista_P1**](./LP1)
-    - [**Lista_P2**](./LP2)
-    - [**Lista_P3**](./LP3)
-    
--  **Códigos de Resolução dos Exercícios**
-    - [**Código_P1**](./CP1)
-    - [**Código_P2**](./CP2)
-    - [**Código_P3**](./CP3)
+## Organização do repositório
 
-
-<h3> Organização do Repositório: </h3>
-
-A estrutura do repositório está organizada da seguinte forma:
 ```
-Repositorio-APC/
-│-- Listas_de_Exercícios/
-│   ├── Lista_P1
-│   ├── Lista_P2
-│   ├── Lista_P3
-│-- Códigos_de_Resolução_dos_Exercícios/
-│   ├── Código_P1
-│   ├── Código_P2
-│   ├── Código_P3
+APC/
+├── LP1/   listas de exercícios — 1º módulo
+├── LP2/   listas de exercícios — 2º módulo
+├── LP3/   listas de exercícios — 3º módulo
+├── CP1/   códigos de resolução — 1º módulo
+├── CP2/   códigos de resolução — 2º módulo
+└── CP3/   códigos de resolução — 3º módulo
 ```
 
+## Conteúdo
+
+**Listas de exercícios**
+[LP1](./LP1) · [LP2](./LP2) · [LP3](./LP3)
+
+**Códigos de resolução**
+[CP1](./CP1) · [CP2](./CP2) · [CP3](./CP3)
+
+## Como compilar
+
+```bash
+gcc arquivo.c -o programa
+./programa
+```
